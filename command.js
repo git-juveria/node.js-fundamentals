@@ -14,6 +14,7 @@
 
 //The reduce function reduces the array into a single value.
 //two parameters are required a callback function and an initial value(optional)
-const arguments=process.argv.slice(2)
-const sum=arguments.reduce((acc,val) =>acc+parseInt(val),0)
+console.log(process.argv)
+const arguments = process.argv.slice(2)
+const sum = arguments.reduce((acc, val) => acc + parseInt(val), 0)
 console.log(sum)
